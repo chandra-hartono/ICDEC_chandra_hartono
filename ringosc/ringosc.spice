@@ -1,0 +1,12 @@
+** sch_path: /home/chandra_hartono/project/ringosc/ringosc.sch
+**.subckt ringosc vdd out gnd
+*.opin out
+*.iopin gnd
+*.iopin vdd
+x1 vdd net1 net2 gnd inverter
+x2 vdd net2 out gnd inverter
+x3 vdd out net1 gnd inverter
+**.ends
+
+
+.end
